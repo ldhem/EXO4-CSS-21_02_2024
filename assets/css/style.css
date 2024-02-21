@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url(../img/img.jpeg);
+    background-size: 100% 100%;
+
+
+}
+/* -------- NAVBAR -------- */
+.navbar {
+    width: 100%;
+    height: 7%;
+    background-color: #333; 
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+}
+
+.navbar a {
+    color: white; 
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 18px;
+    position: relative;
+    top: 16px;
+}
+
+/* -------- Boites de classes -------- */
+.boites {
+    display: flex;
+    gap: 100px; 
+}
+/* -------- ASSASSIN -------- */
+.assassin {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    border: 1px solid;
+    box-shadow: 10px 10px 20px #868686;
+    background-color: azure;
+}
+ 
+.assassin img {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+}
+
+.assassin h2 {
+    position: absolute;
+    color: black;
+    bottom: 23%;
+    padding: 1%;
+}
+.assassin p {
+    position: absolute;
+    color: black;
+    bottom: 11%;
+    font-size: 100%;
+    padding: 1%;
+}
+
+
+.bouton_assassin {
+    position: absolute;
+    color: beige;
+    background-color: #868686;
+    padding: 3%;
+    bottom: 2%;
+    left: 32%;
+    cursor: pointer;
+    border: 0cap;
+
+}
+/* -------- BERSERKER -------- */
+.berserker {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    border: 1px solid;
+    box-shadow: 10px 10px 20px #97752b;
+    background-color: azure;
+}
+ 
+.berserker img {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+}
+.berserker h2 {
+    position: absolute;
+    color: black;
+    bottom: 23%;
+    padding: 1%;
+}
+.berserker p {
+    position: absolute;
+    color: black;
+    bottom: 11%;
+    font-size: 100%;
+    padding: 1%;
+}
+
+
+.bouton_berserker {
+    position: absolute;
+    color: beige;
+    background-color: #97752b;
+    padding: 3%;
+    bottom: 2%;
+    left: 32%;
+    cursor: pointer;
+    border: 0cap;
+
+}
+
+/* -------- SLAYER -------- */
+
+.slayer {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    border: 1px solid;
+    box-shadow: 10px 10px 20px #941b1b;
+    background-color: azure;
+}
+ 
+.slayer img {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+}
+
+.slayer h2 {
+    position: absolute;
+    color: black;
+    bottom: 23%;
+    padding: 1%;
+}
+.slayer p {
+    position: absolute;
+    color: black;
+    bottom: 11%;
+    font-size: 100%;
+    padding: 1%;
+}
+
+.bouton_slayer {
+    position: absolute;
+    color: beige;
+    background-color: rgb(216, 28, 28);
+    padding: 3%;
+    bottom: 2%;
+    left: 32%;
+    cursor: pointer;
+    border: 0cap;
+
+}
+
+
+/* -------- RESPONSIVE -------- */
+
+@media screen and (max-width: 1410px) {
+    .boites {
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        margin-top: 200px;
+        margin-left: 10px;
+        
+        
+}
+
+}
